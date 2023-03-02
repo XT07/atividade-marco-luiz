@@ -15,6 +15,7 @@ export default function SobreScreen( {navigation} ) {
                 style={styles.btn}>
                 Ir para a surpresa screen
             </Button>
+            <Text></Text>
         </View>
         <View>
             <Button

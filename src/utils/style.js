@@ -13,8 +13,8 @@ const styles = StyleSheet.create({
   btn: {
     backgroundColor: "#1C1C1C",
   },
-  container2: {
-    flex: 1,
+  nav:{
+    backgroundColor: '#1C1C1C',
   },
 });
 
