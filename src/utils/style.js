@@ -16,6 +16,11 @@ const styles = StyleSheet.create({
   nav:{
     backgroundColor: '#1C1C1C',
   },
+  txtPr:{
+    fontSize: 20,
+    color: "green",
+    margin: 20,
+  }
 });
 
 export default styles;
