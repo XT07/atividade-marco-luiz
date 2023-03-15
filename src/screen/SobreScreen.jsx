@@ -1,13 +1,13 @@
 import { View } from "react-native";
 import { Button, Text } from "react-native-paper";
 import styles from "../utils/style";
-import HomeScreen from "./HomeScreen";
 import SurpresaScreen from "./SurpresaScreen";
 
 export default function SobreScreen( {navigation} ) {
   return (
     <View style={styles.container}>
-        <View style={{ flex: 1, alignItems: "center", }}>
+      <View style = {styles.box}>
+      <View style={{ flex: 1, alignItems: "center", }}>
             <Text style={styles.txt}>Bem vindo ao sobre</Text>
             <Button
                 mode="contained"
@@ -41,14 +41,7 @@ export default function SobreScreen( {navigation} ) {
               Para mais informações vá para ( https://meiobit.com/458700/a-curiosa-historia-do-hacker-sem-fio/ )
             </Text>
         </View>
-        <View>
-            <Button
-            mode="contained"
-            style={styles.btn}
-            onPress={() => {navigation.navigate(HomeScreen)}}>
-            Voltar a tela inicial
-            </Button>
-        </View>
+      </View>
     </View>
   );
 }
